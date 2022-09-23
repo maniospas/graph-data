@@ -2,7 +2,7 @@
 This repository hosts preprocessed versions of popular datasets often used for GNN evaluation.
 
 ## :page_facing_up: Format
-Each dataset contains a comma-separated csv file *[dataset name].feats* of the following format:
+Each dataset contains node features in a comma-separated csv file *[dataset name].feats* of the following format:
 
 | Node name | Feature1 | Feature2 | ... | Class | 
 | --------- | -------- | -------- | --- | ----- |
@@ -10,7 +10,7 @@ Each dataset contains a comma-separated csv file *[dataset name].feats* of the f
 | node2     | 0.3      | 1.0      | ... | label2|
 | node3     | 0.7      | 0.6      | ... | label1|
 
-There is also a list of comma-separated csv file *[dataset name].feats* of the following format:
+There is also an edge list organized into a comma-separated csv file *[dataset name].edges* of the following format:
 | From | To   |
 | ---- | ---- |
 | node1| node2|
