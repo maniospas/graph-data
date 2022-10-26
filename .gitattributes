@@ -1,0 +1,4 @@
+.*feats filter=lfs diff=lfs merge=lfs -text
+*.feats filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.graph filter=lfs diff=lfs merge=lfs -text
